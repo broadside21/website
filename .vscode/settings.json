@@ -1,0 +1,28 @@
+
+{
+    "files.exclude": {
+        ".cache": true,
+        ".copilot": true,
+        ".dotnet": true,
+        ".landscape": true,
+        ".local": true,
+        ".npm": true,
+        ".vscode-server": true,
+        ".bash_history": true,
+        ".bash_logout": true,
+        ".bashrc": true,
+        ".gitconfig": true,
+        ".lesshst": true,
+        ".motd_shown": true,
+        ".profile": true,
+        ".sudo_as_admin_successful": true,
+        ".viminfo": true,
+        ".wget-hsts": true,
+        ".wsl-config": true
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "html": "html"
+    },
+    "security.workspace.trust.untrustedFiles": "open"
+}

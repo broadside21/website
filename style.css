@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(69, 72, 72);
+    color:white;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+button{
+    align-items: center;
+    border-radius: 15px;
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 170px;
+    width: 140px;
+}
+
+span{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 75px;
+}
+
+h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.25;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.navbar {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 0px;
+}
+
+.navlinks{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 10px;
+    padding-left: 40px;
+}
+
+.navlinks a{
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.top-right-side{
+    width: 575px;
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    text-align: left;
+}
+
+.bottom-right-side{
+    width: 575px;
+    position: absolute;
+    top: 350px;
+    right: 100px;
+    text-align: left;
+
+}
+
+.container{
+    display: flex;
+    height: calc(100vh - 238px);
+}
+
+.left-pane{
+    width: 50%;
+    height: 100%;
+}
+
+.right-pane{
+    width:  50%;
+    height: 100%;
+    padding:    20px;      
+}
+.code-viewer{
+    width:  100%;
+    height:  100%;
+    display: block;
+    
+}
